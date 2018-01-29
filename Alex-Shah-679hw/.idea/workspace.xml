@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6cea3f4c-999b-446e-9884-29c2f53b730a" name="Default" comment="formatting, 10 not done">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="6cea3f4c-999b-446e-9884-29c2f53b730a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/hw1/Cat.scala" afterPath="$PROJECT_DIR$/src/hw1/Cat.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -253,12 +251,20 @@
       <workItem from="1517087507757" duration="881000" />
       <workItem from="1517251635662" duration="224000" />
       <workItem from="1517252442408" duration="2640000" />
-      <workItem from="1517255357909" duration="273000" />
+      <workItem from="1517255357909" duration="280000" />
     </task>
+    <task id="LOCAL-00001" summary="formatting, 10 not done">
+      <created>1517255635632</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1517255635632</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4018000" />
+    <option name="totallyTimeSpent" value="4025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1688" height="1056" extended-state="4" />
