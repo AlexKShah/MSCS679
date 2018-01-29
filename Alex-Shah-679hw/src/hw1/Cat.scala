@@ -11,9 +11,13 @@ object Cat extends App {
   println("4. " + tweet.count( _== ' '))
   print("5. ")
   println( tweet.count( _== '.' ) + tweet.count( _== ',' ) + tweet.count( _== '?' ) + tweet.count( _== '~' ) + tweet.count( _== '!' ) )
-  println("6. "  )
-  println("7. "  )
-  println("8. "  )
-  println("9. "  )
-  println("10. "  )
+  println("6. " + tweet.split(' ').count(c => !c.exists(_.isUpper ) ) )
+  println("7. " + tweet.split(' ').count(c =>  c.exists(_.isUpper ) ) )
+  println("8. " + tweet.split(' ').foreach{w => w.foreach{c => print( (c+1).toChar ) } } )
+  val cipher = for (c:Char <- tweet.filterNot(_.isWhitespace).map(c => (c.toInt+1).toChar)) yield c
+  println("9. " +  cipher)
+  println("10. "
+    val tweetchars = for (c <- tweet.toLowerCase()) yield c
+    tweetchars.foldLeft(Map.empty[Char,Int]) { c, n =>  } )
+  println((tweet.toLowerCase().groupBy(identity).mapValues(_.size)).toList.sortBy(_._2).reverse)
  }
