@@ -1,7 +1,5 @@
 package hw1
 
-import java.lang.String
-
 object Cat extends App {
   val tweet =
     "If a cat can kill a rat in a minute, how long would it be killing 60,000 rats? " +
@@ -17,7 +15,7 @@ object Cat extends App {
   println("4. " + tweet.count(_ == ' '))
 
   print("5. ")
-  println(tweet.count(_ == '.') + tweet.count(_ == ',') + tweet.count(_ == '?') + tweet.count(_ == '~') + tweet.count(_ == '!'))
+  println(tweet.count(_ == '.') + tweet.count(c=> c == ','|| c == '?'|| c == '~'|| c == '!'))
 
   println("6. " + tweet.split(' ').count(c => !c.exists(_.isUpper)))
 
@@ -30,5 +28,5 @@ object Cat extends App {
   val cipher = for (c: Char <- tweet.filterNot(_.isWhitespace).map(c => ((c.toInt + 1) % 128).toChar)) yield c
   println("9. " + cipher)
 
-  println("10. " + tweet.toLowerCase().groupBy(c => c).mapValues(tweet => tweet.length).toList.sortBy(n => n._2).reverse)
+  println("10. " + tweet.toLowerCase.groupBy(c => c).mapValues(tweet => tweet.length).toList.sortBy(n => n._2).reverse)
 }
