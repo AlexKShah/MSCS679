@@ -1,5 +1,7 @@
 package hw1
 
+import java.lang.String
+
 object Cat extends App {
   val tweet =
     "If a cat can kill a rat in a minute, how long would it be killing 60,000 rats? " +
@@ -34,9 +36,16 @@ object Cat extends App {
   println("9. " + cipher)
 
   //TODO #10 need to follow instructions and use a real Map
-  println("10. " + tweet.toLowerCase().groupBy(c => c).mapValues(tweet => tweet.length).toList.sortBy( n => n._2).reverse)
+  val simpletweet = tweet.toLowerCase()
+  val charlist = tweet.toLowerCase.toList.distinct
+  println("10. " + tweet.foldLeft(Map[String,Int]()) { (c,n) => simpletweet.count(_==charlist)})
+  //mapVal?
 
-//  words.map {
+  //tweet.toLowerCase().groupBy(c => c).mapValues(tweet => tweet.length).toList.sortBy( n => n._2).reverse)
+
+  //Notes
+
+  //  words.map {
 //    word => word.map {
 //      c => something
 //    }
