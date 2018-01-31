@@ -19,14 +19,35 @@ object Cat extends App {
 
   println("6. " + tweet.split(' ').count(c => !c.exists(_.isUpper ) ) )
 
-  println("7. " + tweet.split(' ').count(c =>  c.exists(_.isUpper ) ) )
+  //TODO #7 Words themselves, not the count
+
+  //val words = for (words <- tweet.split(' ').exists(_.isUpper )  } ) yield words
+  //returns garbage
+  //println("7. " + words )
 
   print("8. " )
-  print( tweet.split(' ').foreach{ w => w.foreach { c => print( (c+1%128).toChar )} } )
+  print( tweet.split(' ').foreach{ w => w.foreach { c => print( ((c.toInt+1)%128).toChar )} } )
   print("\n")
 
-  val cipher = for (c:Char <- tweet.filterNot(_.isWhitespace).map(c => (c.toInt+1%128).toChar)) yield c
-  println("9. " +  cipher)
+  //val cipher = for (c:Char <- foreach{ w => w.foreach { c => print( ((c.toInt+1)%128).toChar )} } ) yield c
+  val cipher = for (c:Char <- tweet.filterNot(_.isWhitespace).map(c => ((c.toInt+1)%128).toChar)) yield c
+  println("9. " + cipher)
 
+  //TODO #10 need to follow instructions and use a real Map
   println("10. " + tweet.toLowerCase().groupBy(c => c).mapValues(tweet => tweet.length).toList.sortBy( n => n._2).reverse)
- }
+
+//  words.map {
+//    word => word.map {
+//      c => something
+//    }
+//  }
+
+//tweet.foldLeft(Map[String,Int]()) { (m, c) =>
+//    //m initially is an empty map, m is the entire map
+//    val count = m(c)
+//    //or else: if you haven't seen it yet, give me 0
+//    m.getOrElse(c, 0)
+//    m(c) = count + 1
+//  }.toList.sortWith { (a.b) => }
+
+}
