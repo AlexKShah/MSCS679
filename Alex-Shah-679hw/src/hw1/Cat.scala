@@ -1,3 +1,6 @@
+//Alex Shah
+//MSCS679
+//HW1
 package hw1
 
 object Cat extends App {
