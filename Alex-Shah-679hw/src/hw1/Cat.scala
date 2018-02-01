@@ -6,30 +6,44 @@ object Cat extends App {
       "Ah, how long indeed! My private opinion is that the rats would kill the cat. " +
       "~Lewis Carroll, on the advantages of parallelism"
 
-  println("1. " + tweet.length())
+  println("1. " +
+    tweet.length()
+  )
 
-  println("2. " + tweet.foldLeft(0) { (sum, n) => sum + 1 })
+  println("2. " +
+    tweet.foldLeft(0) { (sum, n) => sum + 1 }
+  )
 
-  println("3. " + tweet.count(_ => true))
+  println("3. " +
+    tweet.count(_ => true)
+  )
 
-  println("4. " + tweet.count(_ == ' '))
+  println("4. " +
+    tweet.count(_ == ' ')
+  )
 
-  println("5. " + tweet.count(_ == '.') + tweet.count(c=> c == ','|| c == '?'|| c == '~'|| c == '!'))
+  println("5. " +
+    tweet.count(_ == '.') + tweet.count(c=> c == ','|| c == '?'|| c == '~'|| c == '!')
+  )
 
-  println("6. " + tweet.split(' ').count(c => !c.exists(_.isUpper)))
+  println("6. " +
+    tweet.split(' ').count(c => !c.exists(_.isUpper))
+  )
 
-  println("7. " + tweet.split(' ').filter(c => c.exists(_.isUpper)).toList)
+  println("7. " +
+    tweet.split(' ').filter(c => c.exists(_.isUpper)).toList
+  )
 
   print("8. ")
-  println(tweet.split(' ').foreach { w => w.foreach { c => print((c+1).toChar) } } )
+  println(
+    tweet.split(' ').foreach { w => w.foreach { c => print((c+1).toChar) } }
+  )
 
   val cipher = for (c: Char <- tweet.filterNot(_.isWhitespace).map(c => (c+1).toChar )) yield c
   println("9. " + cipher)
 
-  println("10. " + tweet.toLowerCase.groupBy(c => c).mapValues(tweet => tweet.length).toList.sortBy(n => n._2).reverse)
-//  println("10. " + tweet.toLowerCase.foldLeft(Map[String,Int]()) { (m,c) =>
-//    val count = m(c)
-//    m.getOrElse(c, 0)
-//    m(c)=count+1
-//  }.toList )
+  println( "10. " +
+    tweet.toLowerCase().foldLeft[Map[Char, Int]](Map.empty)((m, c) => m + (c -> (m.getOrElse(c, 0) + 1))).toList.sortBy(_._2).reverse
+  )
+
 }
