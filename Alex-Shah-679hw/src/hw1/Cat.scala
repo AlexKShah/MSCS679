@@ -39,7 +39,7 @@ object Cat extends App {
 
   print("8. ")
   println(
-    tweet.split(' ').foreach { w => w.foreach { c => print((c+1).toChar) } }
+    tweet.split(' ').map { w => w.map { c => print((c+1).toChar) } }
   )
 
   val cipher = for (c: Char <- tweet.filterNot(_.isWhitespace).map(c => (c+1).toChar )) yield c
