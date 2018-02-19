@@ -1,10 +1,13 @@
+//Alex Shah
+//MSCS 679 - Lab 5
+//2/16/18
 package lab5
 
 object GLEstimator extends App {
   val t0 = System.nanoTime()
 
   val pi = (0 until Int.MaxValue).foldLeft(0.0) { (sum, n) =>
-    val one = if ((n&1)==0) 4 else -4
+    val one = if ((n & 1) == 0) 4 else -4
     sum + one / ((2.0 * n) + 1)
   }
 
