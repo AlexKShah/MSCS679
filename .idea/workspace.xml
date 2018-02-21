@@ -4,6 +4,7 @@
     <list default="true" id="be08288d-e08e-4e59-8b93-f257fbbb2126" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/AlexShah-Parallel-Labs/src/lab5/GLEstimator.scala" afterPath="$PROJECT_DIR$/AlexShah-Parallel-Labs/src/lab5/GLEstimator.scala" />
+      <change beforePath="$PROJECT_DIR$/AlexShah-Parallel-Labs/src/lab6/ParallelGLEstimator.scala" afterPath="$PROJECT_DIR$/AlexShah-Parallel-Labs/src/lab6/ParallelGLEstimator.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,21 +16,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GLEstimator.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GLEstimator.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AlexShah-Parallel-Labs/src/lab5/GLEstimator.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            <state relative-caret-position="864">
+              <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParallelGLEstimator.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ParallelGLEstimator.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AlexShah-Parallel-Labs/src/lab6/ParallelGLEstimator.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="11" column="58" lean-forward="true" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+            <state relative-caret-position="576">
+              <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -48,9 +49,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/AlexShah-Parallel-Labs/src/lab6/ParallelGLEstimator.scala" />
         <option value="$PROJECT_DIR$/AlexShah-Parallel-Labs/src/lab6/ParallelGLEstimator1.scala" />
         <option value="$PROJECT_DIR$/AlexShah-Parallel-Labs/src/lab5/GLEstimator.scala" />
+        <option value="$PROJECT_DIR$/AlexShah-Parallel-Labs/src/lab6/ParallelGLEstimator.scala" />
       </list>
     </option>
   </component>
@@ -324,7 +325,7 @@
       <workItem from="1518738217467" duration="1925000" />
       <workItem from="1518825450402" duration="98000" />
       <workItem from="1519174255735" duration="127000" />
-      <workItem from="1519174400373" duration="1488000" />
+      <workItem from="1519174400373" duration="3015000" />
     </task>
     <task id="LOCAL-00001" summary="lab 5 format decimal">
       <created>1518739239838</created>
@@ -347,11 +348,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519175844417</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Serial version do not format pi to 2 decimals">
+      <created>1519175916855</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1519175916855</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3897000" />
+    <option name="totallyTimeSpent" value="5424000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-14" y="-14" width="3228" height="1760" extended-state="6" />
@@ -396,7 +404,8 @@
     <MESSAGE value="lab 5 format decimal" />
     <MESSAGE value="implement bitwise and" />
     <MESSAGE value="version from lab" />
-    <option name="LAST_COMMIT_MESSAGE" value="version from lab" />
+    <MESSAGE value="Serial version do not format pi to 2 decimals" />
+    <option name="LAST_COMMIT_MESSAGE" value="Serial version do not format pi to 2 decimals" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -464,18 +473,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AlexShah-Parallel-Labs/src/lab6/ParallelGLEstimator.scala">
+    <entry file="file://$PROJECT_DIR$/AlexShah-Parallel-Labs/src/lab5/GLEstimator.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="11" column="58" lean-forward="true" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+        <state relative-caret-position="864">
+          <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AlexShah-Parallel-Labs/src/lab5/GLEstimator.scala">
+    <entry file="file://$PROJECT_DIR$/AlexShah-Parallel-Labs/src/lab6/ParallelGLEstimator.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        <state relative-caret-position="576">
+          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
           <folding />
         </state>
       </provider>

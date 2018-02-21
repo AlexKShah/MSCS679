@@ -17,3 +17,5 @@ object GLEstimator extends App {
   println("Pi = " + pi)
   println("dt = " + f"$dt%2.2f")
 }
+//Pi = 3.141592654053932
+//dt = 17.28

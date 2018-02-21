@@ -17,16 +17,15 @@ object ParallelGLEstimator extends App {
     val high: Long = MAX.toLong min (k + 1) * RANGE
 
     val partialpi = (low to high).foldLeft(0.0) { (sum, n) =>
-      val one = if ((n & 1) == 0) 4 else -4
-      sum + one / ((2.0 * n) + 1)
+      val four = if ((n & 1) == 0) 4 else -4
+      sum + four / ((2.0 * n) + 1)
     }
     partialpi
   }
 
   val totalpi = futures.foldLeft(4.0) { (sum, future) =>
     import scala.concurrent.duration._
-    val result = Await.result(future, 100 seconds)
-    sum + result
+    sum + Await.result(future, 100 seconds)
   }
 
   val t1 = System.nanoTime()
@@ -35,3 +34,7 @@ object ParallelGLEstimator extends App {
   println("Pi = " + totalpi)
   println("dt = %6.2f".format(dt))
 }
+
+//cores = 4
+//Pi = 3.1415926531240608
+//dt =  14.70
