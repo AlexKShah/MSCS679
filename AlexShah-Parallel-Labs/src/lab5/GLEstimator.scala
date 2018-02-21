@@ -14,6 +14,6 @@ object GLEstimator extends App {
   val t1 = System.nanoTime()
   val dt = (t1 - t0) / 1000000000.0
 
-  println("Pi = " + f"$pi%2.2f")
+  println("Pi = " + pi)
   println("dt = " + f"$dt%2.2f")
 }

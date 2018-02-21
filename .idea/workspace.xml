@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be08288d-e08e-4e59-8b93-f257fbbb2126" name="Default" comment="version from lab">
+    <list default="true" id="be08288d-e08e-4e59-8b93-f257fbbb2126" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/AlexShah-Parallel-Labs/src/lab6/ParallelGLEstimator.scala" afterPath="$PROJECT_DIR$/AlexShah-Parallel-Labs/src/lab6/ParallelGLEstimator.scala" />
+      <change beforePath="$PROJECT_DIR$/AlexShah-Parallel-Labs/src/lab5/GLEstimator.scala" afterPath="$PROJECT_DIR$/AlexShah-Parallel-Labs/src/lab5/GLEstimator.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,21 +15,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GLEstimator.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GLEstimator.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AlexShah-Parallel-Labs/src/lab5/GLEstimator.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="8" column="2" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="11" selection-end-column="3" />
+            <state relative-caret-position="384">
+              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParallelGLEstimator.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ParallelGLEstimator.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AlexShah-Parallel-Labs/src/lab6/ParallelGLEstimator.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+            <state relative-caret-position="384">
+              <caret line="11" column="58" lean-forward="true" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -48,9 +48,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/AlexShah-Parallel-Labs/src/lab5/GLEstimator.scala" />
         <option value="$PROJECT_DIR$/AlexShah-Parallel-Labs/src/lab6/ParallelGLEstimator.scala" />
         <option value="$PROJECT_DIR$/AlexShah-Parallel-Labs/src/lab6/ParallelGLEstimator1.scala" />
+        <option value="$PROJECT_DIR$/AlexShah-Parallel-Labs/src/lab5/GLEstimator.scala" />
       </list>
     </option>
   </component>
@@ -324,7 +324,7 @@
       <workItem from="1518738217467" duration="1925000" />
       <workItem from="1518825450402" duration="98000" />
       <workItem from="1519174255735" duration="127000" />
-      <workItem from="1519174400373" duration="1422000" />
+      <workItem from="1519174400373" duration="1488000" />
     </task>
     <task id="LOCAL-00001" summary="lab 5 format decimal">
       <created>1518739239838</created>
@@ -340,14 +340,22 @@
       <option name="project" value="LOCAL" />
       <updated>1518740831744</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="version from lab">
+      <created>1519175844417</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1519175844417</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3831000" />
+    <option name="totallyTimeSpent" value="3897000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-14" y="-14" width="3228" height="1760" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -357,7 +365,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3086583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3086583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -387,7 +395,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lab 5 format decimal" />
     <MESSAGE value="implement bitwise and" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement bitwise and" />
+    <MESSAGE value="version from lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="version from lab" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -447,26 +456,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AlexShah-Parallel-Labs/src/lab5/GLEstimator.scala">
+    <entry file="file://$PROJECT_DIR$/AlexShah-Parallel-Labs/src/lab6/ParallelGLEstimator1.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="8" column="2" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="11" selection-end-column="3" />
+        <state relative-caret-position="710">
+          <caret line="31" column="29" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AlexShah-Parallel-Labs/src/lab6/ParallelGLEstimator.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        <state relative-caret-position="384">
+          <caret line="11" column="58" lean-forward="true" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AlexShah-Parallel-Labs/src/lab6/ParallelGLEstimator1.scala">
+    <entry file="file://$PROJECT_DIR$/AlexShah-Parallel-Labs/src/lab5/GLEstimator.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="710">
-          <caret line="31" column="29" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        <state relative-caret-position="384">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
           <folding />
         </state>
       </provider>
